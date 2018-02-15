@@ -17,7 +17,7 @@ The course is part of the overall program with C # courses and tutorials for the
 1 RESOURCES<br>
 2 COURSE INTRODUCTION<br>
 3 DATABASES INTRODUCTION<br>
-4 DATA DEFINITION AND DATATYPES<br>
+4 <a href="https://github.com/russeva/Databases-Basics-MS-SQL-Server/blob/master/02.%20Data%20Definition%20And%20Datatypes%20Excercise.sql" > DATA DEFINITION AND DATATYPES </a><br>
 5 EXERCISE:DATA DEFINITION AND DATATYPES<br>
 6 BASIC CRUD<br>
 7 EXERCISE: BASIC CRUD<br>
