@@ -14,22 +14,22 @@ This course sets the basics of working with databases, making it easier to use t
 The course is part of the overall program with C # courses and tutorials for the "C # programmer" training at the University of Software.
 
 
-1 RESOURCES<br>
-2 COURSE INTRODUCTION<br>
-3 DATABASES INTRODUCTION<br>
-4 DATA DEFINITION AND DATATYPES <br>
-5 <a href="https://github.com/russeva/Databases-Basics-MS-SQL-Server/blob/master/02.%20Data%20Definition%20And%20Datatypes%20Excercise.sql" > EXERCISE:DATA DEFINITION AND DATATYPES </a><br>
-6 BASIC CRUD<br>
-7 <a href="https://github.com/russeva/Databases-Basics-MS-SQL-Server/blob/master/03.%20Basic%20CRUD%20Operations%20-%20Excersice.sql" > EXERCISE: BASIC CRUD </a><br>
-8 BUILT-IN FUNCTIONS<br>
-9 <a href="https://github.com/russeva/Databases-Basics-MS-SQL-Server/blob/master/04.%20Built%20In%20Functions%20Excercise.sql"> EXERCISE: BUILT-IN FUNCTIONS </a><br>
-10 DATA AGGREGATION<br>
-11<a href="https://github.com/russeva/Databases-Basics-MS-SQL-Server/blob/master/05.%20Data%20Aggregation%20Excercise.sql"> EXERCISE: DATA AGGREGATION </a><br>
-12 TABLE RELATIONS<br>
-13<a href="https://github.com/russeva/Databases-Basics-MS-SQL-Server/blob/master/06.%20Table%20Relations.sql"> EXERCISE: TABLE RELATIONS </a><br>
-14 SUBQUERIES AND JOINS<br>
-15 EXERCISE: SUBQUERIES AND JOINS<br>
-16 FUNCTIONS AND PROCEDURES<br>
-17 EXERCISE: FUNCTIONS, TRIGGERS AND PROCEDURES<br>
-18 TRIGGERS AND TRANSACTIONS<br>
-19 EXERCISE: TRIGGERS AND TRANSACTIONS<br>
+1. RESOURCES<br>
+2. COURSE INTRODUCTION<br>
+3. DATABASES INTRODUCTION<br>
+4. DATA DEFINITION AND DATATYPES <br>
+5. <a href="https://github.com/russeva/Databases-Basics-MS-SQL-Server/blob/master/02.%20Data%20Definition%20And%20Datatypes%20Excercise.sql" > EXERCISE:DATA DEFINITION AND DATATYPES </a><br>
+6. BASIC CRUD<br>
+7. <a href="https://github.com/russeva/Databases-Basics-MS-SQL-Server/blob/master/03.%20Basic%20CRUD%20Operations%20-%20Excersice.sql" > EXERCISE: BASIC CRUD </a><br>
+8. BUILT-IN FUNCTIONS<br>
+9. <a href="https://github.com/russeva/Databases-Basics-MS-SQL-Server/blob/master/04.%20Built%20In%20Functions%20Excercise.sql"> EXERCISE: BUILT-IN FUNCTIONS </a><br>
+10. DATA AGGREGATION<br>
+11.<a href="https://github.com/russeva/Databases-Basics-MS-SQL-Server/blob/master/05.%20Data%20Aggregation%20Excercise.sql"> EXERCISE: DATA AGGREGATION </a><br>
+12. TABLE RELATIONS<br>
+13.<a href="https://github.com/russeva/Databases-Basics-MS-SQL-Server/blob/master/06.%20Table%20Relations.sql"> EXERCISE: TABLE RELATIONS </a><br>
+14. SUBQUERIES AND JOINS<br>
+15. EXERCISE: SUBQUERIES AND JOINS<br>
+16. FUNCTIONS AND PROCEDURES<br>
+17. EXERCISE: FUNCTIONS, TRIGGERS AND PROCEDURES<br>
+18. TRIGGERS AND TRANSACTIONS<br>
+19. EXERCISE: TRIGGERS AND TRANSACTIONS<br>
