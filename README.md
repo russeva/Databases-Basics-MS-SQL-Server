@@ -24,9 +24,9 @@ The course is part of the overall program with C # courses and tutorials for the
 8. BUILT-IN FUNCTIONS<br>
 9. <a href="https://github.com/russeva/Databases-Basics-MS-SQL-Server/blob/master/04.%20Built%20In%20Functions%20Excercise.sql"> EXERCISE: BUILT-IN FUNCTIONS </a><br>
 10. DATA AGGREGATION<br>
-11.<a href="https://github.com/russeva/Databases-Basics-MS-SQL-Server/blob/master/05.%20Data%20Aggregation%20Excercise.sql"> EXERCISE: DATA AGGREGATION </a><br>
+11. <a href="https://github.com/russeva/Databases-Basics-MS-SQL-Server/blob/master/05.%20Data%20Aggregation%20Excercise.sql"> EXERCISE: DATA AGGREGATION </a><br>
 12. TABLE RELATIONS<br>
-13.<a href="https://github.com/russeva/Databases-Basics-MS-SQL-Server/blob/master/06.%20Table%20Relations.sql"> EXERCISE: TABLE RELATIONS </a><br>
+13. <a href="https://github.com/russeva/Databases-Basics-MS-SQL-Server/blob/master/06.%20Table%20Relations.sql"> EXERCISE: TABLE RELATIONS </a><br>
 14. SUBQUERIES AND JOINS<br>
 15. EXERCISE: SUBQUERIES AND JOINS<br>
 16. FUNCTIONS AND PROCEDURES<br>
