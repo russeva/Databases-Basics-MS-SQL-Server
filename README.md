@@ -32,4 +32,4 @@ The course is part of the overall program with C # courses and tutorials for the
 16. FUNCTIONS AND PROCEDURES<br>
 17. <a href="https://github.com/russeva/Databases-Basics-MS-SQL-Server/blob/master/08.%20Functions%20and%20Procedures%20-%20Exercises%20.sql"> EXERCISE: FUNCTIONS, TRIGGERS AND PROCEDURES </a><br>
 18. TRIGGERS AND TRANSACTIONS<br>
-19. EXERCISE: TRIGGERS AND TRANSACTIONS<br>
+19. <a href="https://github.com/russeva/Databases-Basics-MS-SQL-Server/blob/master/09.%20Triggers%20and%20Transactions%20-%20Exercise.sql"> EXERCISE: TRIGGERS AND TRANSACTIONS </a><br>
