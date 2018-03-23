@@ -1,0 +1,72 @@
+CREATE DATABASE WMS
+USE WMS
+
+CREATE TABLE Clients(
+	ClientId INT PRIMARY KEY IDENTITY (1,1),
+	FirstName NVARCHAR(50),
+	LastName NVARCHAR(50),
+	Phone NVARCHAR(12)
+	)
+
+CREATE TABLE Mechanics(
+	MechanicId INT PRIMARY KEY IDENTITY(1,1),
+	FirstName NVARCHAR(50),
+	LastName NVARCHAR(50),
+	Address NVARCHAR(255)
+	)
+
+	CREATE TABLE Models(
+	ModelId INT PRIMARY KEY IDENTITY(1,1),
+	Name NVARCHAR(50)
+	)
+
+CREATE TABLE Jobs(
+	JobId INT PRIMARY KEY IDENTITY(1,1),
+	ModelId INT FOREIGN KEY REFERENCES Models(ModelId),
+	Status NVARCHAR(11) CHECK(Status IN('Pending','In Progress','Finished')) DEFAULT 'Pending',
+	ClientId INT FOREIGN KEY REFERENCES Clients(ClientId),
+	MechanicId INT FOREIGN KEY REFERENCES Mechanics(MechanicId) NULL,
+	IssueDate DATE,
+	FinishDate DATE NULL
+	)
+
+
+
+CREATE TABLE Orders(
+	OrderId INT PRIMARY KEY IDENTITY  (1,1),
+	JobId  INT FOREIGN KEY REFERENCES Jobs(JobId),
+	IssueDate DATE NULL,
+	Delivered BIT DEFAULT 'False'
+	)
+	
+CREATE TABLE Vendors(
+	VendorId INT PRIMARY KEY IDENTITY(1,1),
+    Name NVARCHAR(50) UNIQUE
+)
+
+CREATE TABLE Parts(
+	PartId INT PRIMARY KEY IDENTITY(1,1), 
+	SerialNumber NVARCHAR(50) UNIQUE,
+	Description NVARCHAR(255) NULL,
+	Price DECIMAL(6,2) CHECK(Price > 0) DEFAULT 0,
+	VendorId INT FOREIGN KEY REFERENCES Vendors(VendorId),
+	StockQty INT CHECK(StockQty >= 0) DEFAULT 0
+	)
+
+CREATE TABLE OrderParts(
+	OrderId INT FOREIGN KEY REFERENCES Orders(OrderId),
+	PartId INT FOREIGN KEY REFERENCES Parts(PartId),
+	Quantity INT CHECK(Quantity > 0) DEFAULT 1,
+
+	CONSTRAINT PK_OrderPartsId PRIMARY KEY(OrderId, PartId)
+	)
+
+CREATE TABLE PartsNeeded(
+	JobId INT FOREIGN KEY REFERENCES Jobs(JobId),
+	PartId INT FOREIGN KEY REFERENCES Parts(PartId),
+	Quantity INT CHECK(Quantity > 0) DEFAULT 1
+
+	CONSTRAINT PK_PartsNeeded PRIMARY KEY(JobId, PartId)
+	)
+
+	
