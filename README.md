@@ -13,6 +13,7 @@ This course sets the basics of working with databases, making it easier to use t
 
 The course is part of the overall program with C # courses and tutorials for the "C # programmer" training at the University of Software.
 
+Course start: 20 September 2018 Course end: 24 June 2018 Course type: online
 
 1. RESOURCES<br>
 2. COURSE INTRODUCTION<br>
